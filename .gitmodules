@@ -1,0 +1,3 @@
+[submodule "themes/hexo-theme-snippet"]
+	path = themes/hexo-theme-snippet
+	url = git@github.com:shenliyang/hexo-theme-snippet.git
