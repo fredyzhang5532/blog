@@ -16,15 +16,15 @@
   <meta name="author" content="Fredyzhang">
   <meta name="keywords" content="">
   
-    <meta name="description" content="有的时候，我们需要在一台电脑配置多个SSH公钥，用于不同的项目中。（比如：公司用的公钥，和自己练习项目的公钥） 配置步骤：创建SSH-KEY&#x2F;&#x2F;创建命令。这里创建两个。~&#x2F;.ssh&#x2F;id_rsa中的id_rsa为文件名。默认id_rsa  ssh-keygen -t rsa -C “&amp;#x66;&amp;#114;&amp;#x65;&amp;#100;&amp;#121;&amp;#x7a;&amp;#">
+    <meta name="description" content="有的时候，我们需要在一台电脑配置多个SSH公钥，用于不同的项目中。（比如：公司用的公钥，和自己练习项目的公钥） 配置步骤：创建SSH-KEY&#x2F;&#x2F;创建命令。这里创建两个。~&#x2F;.ssh&#x2F;id_rsa中的id_rsa为文件名。默认id_rsa  ssh-keygen -t rsa -C “&amp;#102;&amp;#x72;&amp;#101;&amp;#x64;&amp;#121;&amp;#122;&amp;#">
 <meta property="og:type" content="article">
 <meta property="og:title" content="同一台电脑配置多个git公钥">
 <meta property="og:url" content="https://yzhua.cn/2022/10/19/%E5%90%8C%E4%B8%80%E5%8F%B0%E7%94%B5%E8%84%91%E9%85%8D%E7%BD%AE%E5%A4%9A%E4%B8%AAgit%E5%85%AC%E9%92%A5/index.html">
 <meta property="og:site_name" content="雨中花">
-<meta property="og:description" content="有的时候，我们需要在一台电脑配置多个SSH公钥，用于不同的项目中。（比如：公司用的公钥，和自己练习项目的公钥） 配置步骤：创建SSH-KEY&#x2F;&#x2F;创建命令。这里创建两个。~&#x2F;.ssh&#x2F;id_rsa中的id_rsa为文件名。默认id_rsa  ssh-keygen -t rsa -C “&amp;#x66;&amp;#114;&amp;#x65;&amp;#100;&amp;#121;&amp;#x7a;&amp;#">
+<meta property="og:description" content="有的时候，我们需要在一台电脑配置多个SSH公钥，用于不同的项目中。（比如：公司用的公钥，和自己练习项目的公钥） 配置步骤：创建SSH-KEY&#x2F;&#x2F;创建命令。这里创建两个。~&#x2F;.ssh&#x2F;id_rsa中的id_rsa为文件名。默认id_rsa  ssh-keygen -t rsa -C “&amp;#102;&amp;#x72;&amp;#101;&amp;#x64;&amp;#121;&amp;#122;&amp;#">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:published_time" content="2022-10-19T08:52:02.000Z">
-<meta property="article:modified_time" content="2022-10-19T08:58:37.288Z">
+<meta property="article:modified_time" content="2022-10-19T09:05:12.680Z">
 <meta property="article:author" content="Fredyzhang">
 <meta name="twitter:card" content="summary_large_image">
   
@@ -275,31 +275,32 @@
                 <p>有的时候，我们需要在一台电脑配置多个SSH公钥，用于不同的项目中。（比如：公司用的公钥，和自己练习项目的公钥）</p>
 <p>配置步骤：<br>创建SSH-KEY<br>&#x2F;&#x2F;创建命令。这里创建两个。~&#x2F;.ssh&#x2F;id_rsa中的id_rsa为文件名。默认id_rsa</p>
 <blockquote>
-<p>ssh-keygen -t rsa -C “<a href="mailto:&#x66;&#114;&#x65;&#100;&#121;&#x7a;&#x68;&#x61;&#x6e;&#x67;&#x35;&#x35;&#x33;&#x32;&#64;&#103;&#x6d;&#x61;&#x69;&#108;&#x2e;&#x63;&#x6f;&#109;">&#x66;&#114;&#x65;&#100;&#121;&#x7a;&#x68;&#x61;&#x6e;&#x67;&#x35;&#x35;&#x33;&#x32;&#64;&#103;&#x6d;&#x61;&#x69;&#108;&#x2e;&#x63;&#x6f;&#109;</a>“ -f ~&#x2F;.ssh&#x2F;id_rsa<br>ssh-keygen -t rsa -C “<a href="mailto:&#x31;&#53;&#48;&#x39;&#x33;&#48;&#54;&#49;&#x30;&#49;&#x37;&#x40;&#49;&#54;&#x33;&#46;&#99;&#111;&#109;">&#x31;&#53;&#48;&#x39;&#x33;&#48;&#54;&#49;&#x30;&#49;&#x37;&#x40;&#49;&#54;&#x33;&#46;&#99;&#111;&#109;</a>“ -f ~&#x2F;.ssh&#x2F;gitee_rsa</p>
+<p>ssh-keygen -t rsa -C “<a href="mailto:&#102;&#x72;&#101;&#x64;&#121;&#122;&#x68;&#97;&#110;&#x67;&#x35;&#53;&#x33;&#50;&#64;&#x67;&#109;&#x61;&#105;&#x6c;&#x2e;&#x63;&#x6f;&#109;">&#102;&#x72;&#101;&#x64;&#121;&#122;&#x68;&#97;&#110;&#x67;&#x35;&#53;&#x33;&#50;&#64;&#x67;&#109;&#x61;&#105;&#x6c;&#x2e;&#x63;&#x6f;&#109;</a>“ -f ~&#x2F;.ssh&#x2F;id_rsa<br>ssh-keygen -t rsa -C “<a href="mailto:&#49;&#53;&#x30;&#57;&#51;&#48;&#x36;&#x31;&#x30;&#49;&#55;&#x40;&#49;&#54;&#51;&#46;&#x63;&#x6f;&#x6d;">&#49;&#53;&#x30;&#57;&#51;&#48;&#x36;&#x31;&#x30;&#49;&#55;&#x40;&#49;&#54;&#51;&#46;&#x63;&#x6f;&#x6d;</a>“ -f ~&#x2F;.ssh&#x2F;gitee_rsa</p>
 </blockquote>
 <p>这时，在.ssh目录下会多出id_rsa、id_rsa_pub、gitee_rsa、gitee_rsa_pub文件。其中，带有pub后缀的是公钥，反之为私钥。</p>
 <p>ssh-add添加私钥<br>由于git会默认使用id_rsa，所以我们需要做些配置，告诉git根据不同的域名选择不同的私钥。</p>
 <p>添加私钥</p>
-<p>ssh-add ~&#x2F;.ssh&#x2F;id_rsa<br>ssh-add ~&#x2F;.ssh&#x2F;xct_rsa<br>1<br>2<br>这里可能会出现：Could not open a connection to your authentication agent的错误提示。（无法打开到身份验证代理的连接）。这时可以先输入ssh-agent bash命令，之后在重新输入添加私钥命令。如没有出现此错误，则跳过该步骤。</p>
-<p>ssh-agent bash<br>1<br>查看是否添加成功</p>
-<p>&#x2F;&#x2F; 如添加成功，则会打印出相关信息<br>ssh-add -l<br>1<br>2<br>成功后，我们还需要创建config文件，进行一些配置。用来指定私钥对应的域名。</p>
-<p>config文件</p>
-<p>创建</p>
-<p>touch ~&#x2F;.ssh&#x2F;config<br>1<br>这时，在ssh目录下将会在多出一个config文件。使用记事本打开。输入如下代码：</p>
 <blockquote>
+<p>ssh-add ~&#x2F;.ssh&#x2F;id_rsa<br>ssh-add ~&#x2F;.ssh&#x2F;xct_rsa</p>
 </blockquote>
-<h1 id="Host-为域名别名"><a href="#Host-为域名别名" class="headerlink" title="Host 为域名别名"></a>Host 为域名别名</h1><h1 id="Hostname-真实地址"><a href="#Hostname-真实地址" class="headerlink" title="Hostname 真实地址"></a>Hostname 真实地址</h1><h1 id="User-用户名"><a href="#User-用户名" class="headerlink" title="User 用户名"></a>User 用户名</h1><h1 id="IdentityFile-rsa的地址"><a href="#IdentityFile-rsa的地址" class="headerlink" title="IdentityFile rsa的地址"></a>IdentityFile rsa的地址</h1><h1 id="PreferredAuthentications-认证方式（publickey–公钥的方式）"><a href="#PreferredAuthentications-认证方式（publickey–公钥的方式）" class="headerlink" title="PreferredAuthentications 认证方式（publickey–公钥的方式）"></a>PreferredAuthentications 认证方式（publickey–公钥的方式）</h1><h1 id="账号1-github"><a href="#账号1-github" class="headerlink" title="账号1-github"></a>账号1-github</h1><pre><code class="hljs">Host github.com
-Hostname github.com
-IdentityFile ~/.ssh/id_rsa
-PreferredAuthentications publickey
-</code></pre>
-<h1 id="账号2-参考账号1即可"><a href="#账号2-参考账号1即可" class="headerlink" title="账号2-参考账号1即可"></a>账号2-参考账号1即可</h1><pre><code class="hljs">Host gitee.com
-    Hostname gitee.com
-    IdentityFile ~/.ssh/gitee_rsa
-    PreferredAuthentications publickey
-</code></pre>
-<p>验证配置是否成功<br>ssh -T <a href="mailto:&#x67;&#105;&#116;&#64;&#103;&#105;&#116;&#x68;&#117;&#98;&#x2e;&#x63;&#111;&#x6d;">&#x67;&#105;&#116;&#64;&#103;&#105;&#116;&#x68;&#117;&#98;&#x2e;&#x63;&#111;&#x6d;</a></p>
+<p>这里可能会出现：Could not open a connection to your authentication agent的错误提示。（无法打开到身份验证代理的连接）。这时可以先输入ssh-agent bash命令，之后在重新输入添加私钥命令。如没有出现此错误，则跳过该步骤。</p>
 <blockquote>
+<p>ssh-agent bash</p>
+</blockquote>
+<p>查看是否添加成功</p>
+<p>&#x2F;&#x2F; 如添加成功，则会打印出相关信息</p>
+<blockquote>
+<p>ssh-add -l</p>
+</blockquote>
+<p>成功后，我们还需要创建config文件，进行一些配置。用来指定私钥对应的域名。<br>创建config文件</p>
+<blockquote>
+<p>touch ~&#x2F;.ssh&#x2F;config</p>
+</blockquote>
+<p>这时，在ssh目录下将会在多出一个config文件。使用记事本打开。输入如下代码：</p>
+<figure class="highlight awk"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br></pre></td><td class="code"><pre><code class="hljs awk"><span class="hljs-comment"># Host 为域名别名</span><br><span class="hljs-comment"># Hostname 真实地址</span><br><span class="hljs-comment"># User 用户名</span><br><span class="hljs-comment"># IdentityFile rsa的地址</span><br><span class="hljs-comment"># PreferredAuthentications 认证方式（publickey--公钥的方式）</span><br><br><span class="hljs-comment"># 账号1-github</span><br>    Host github.com<br>    Hostname github.com<br>    IdentityFile ~<span class="hljs-regexp">/.ssh/i</span>d_rsa<br>    PreferredAuthentications publickey<br><br><span class="hljs-comment"># 账号2-参考账号1即可</span><br>    Host gitee.com<br>        Hostname gitee.com<br>        IdentityFile ~<span class="hljs-regexp">/.ssh/gi</span>tee_rsa<br>        PreferredAuthentications publickey<br></code></pre></td></tr></table></figure>
+<p>验证配置是否成功</p>
+<blockquote>
+<p>ssh -T <a href="mailto:&#103;&#105;&#x74;&#64;&#x67;&#105;&#x74;&#104;&#x75;&#x62;&#x2e;&#x63;&#111;&#x6d;">&#103;&#105;&#x74;&#64;&#x67;&#105;&#x74;&#104;&#x75;&#x62;&#x2e;&#x63;&#111;&#x6d;</a></p>
 </blockquote>
 <p>注意：<br>1.配置多个本地ssh-key之前，需要先初始化下GIt环境<br>2.ssh-agent bash属于临时会话，也就是说，所有操作都在当前窗口执行。如开新窗口则无效。Git会默认取id_rsa作为密钥。</p>
 
